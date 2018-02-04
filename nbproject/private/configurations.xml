@@ -20,6 +20,7 @@
         <in>sumof2nums.cpp</in>
       </df>
       <df name="ch3">
+        <in>angleCalculator.cpp</in>
         <in>interestEarned.cpp</in>
         <in>mathTutor.cpp</in>
         <in>monthlyPayments.cpp</in>
@@ -27,6 +28,11 @@
         <in>pizzaPi.cpp</in>
         <in>propertyTax.cpp</in>
         <in>seniorCitizenPropTax.cpp</in>
+        <in>stockTransactionRpogram.cpp</in>
+        <in>wordGame.cpp</in>
+      </df>
+      <df name="ch4">
+        <in>personalBest.cpp</in>
       </df>
       <df name="ch6">
         <in>markup.cpp</in>

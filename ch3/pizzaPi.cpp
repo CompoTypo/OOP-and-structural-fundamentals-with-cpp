@@ -6,42 +6,21 @@ using namespace std;
 
 int main() {
 
-    double princ;
-    int compounds;
-    double intRate;
+    int people;
+    int diameter;
 
+    cout << "How many people you having over: ";
+    cin >> people;
+    int neededSlices = people * 4;
+    cout << "enter a pie diameter in inches: ";
+    cin >> diameter;
 
+    double area = 3.14159 * (diameter / 2) * (diameter / 2);
+    double numSlices = area / 14.125;
+    int pizzas = neededSlices / numSlices;
 
-    cout << "enter a intitial savings: ";
-    cin >> princ;
-    cout << "enter a num of compounds: ";
-    cin >> compounds;
-    cout << "enter an interest rate: ";
-    cin >> intRate;
+    cout << "Pizzas needed: " << pizzas << endl;
 
-    double rateDec = intRate / 100;
-    double parenths = rateDec / compounds;
-    double addOne = 1 + parenths;
-    
-    double toCompound = addOne;
-    for (int i = 0; i < compounds - 1; i++) {
-        toCompound *= addOne;
-    }
- 
-    cout << parenths << endl;
-    cout << addOne << endl;
-
-    cout << toCompound << endl;
-
-    double intAmount = princ * toCompound;
-
-    cout << "Interest Rate:     " << intRate << "%" << endl;
-    cout << "Times compounded:  " << compounds << endl;
-    cout << "Principal:         $" << princ << endl;
-    cout << "Interest:          $" << intAmount - princ << endl;
-    cout << "Amount in savings: $" << intAmount << endl;
     
     
-
-
 }

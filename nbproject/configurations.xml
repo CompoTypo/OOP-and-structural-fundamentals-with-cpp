@@ -26,6 +26,9 @@
         <in>propertyTax.cpp</in>
         <in>seniorCitizenPropTax.cpp</in>
       </df>
+      <df name="ch4">
+        <in>personalBest.cpp</in>
+      </df>
       <df name="ch6">
         <in>markup.cpp</in>
         <in>winningDivision.cpp</in>
@@ -108,6 +111,8 @@
       <item path="ch3/propertyTax.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ch3/seniorCitizenPropTax.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch4/personalBest.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ch6/markup.cpp" ex="false" tool="1" flavor2="0">
       </item>
