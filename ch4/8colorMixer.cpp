@@ -14,6 +14,8 @@
 #include <cstdlib>
 #include <iostream>
 #include <vector>
+#include <string>
+#include <cctype>
 
 
 using namespace std;
@@ -28,8 +30,7 @@ int main(int argc, char** argv) {
     cout << "Enter two primary colors seperated by a space: ";
     cin >> p1 >> p2;
 
-    //p1 = tolower(p1);
-    //p2 = tolower(p2);
+
    
     if ((p1 == "red" || p1 == "blue" || p1 == "yellow") && (p2 == "red" || p2 == "blue" || p2 == "yellow")) {
         if (p1 == "red" && p2 == "red") {
