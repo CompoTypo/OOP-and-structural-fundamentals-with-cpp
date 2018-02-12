@@ -3,6 +3,9 @@
         "iostream": "cpp",
         "ratio": "cpp",
         "ostream": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
     }
 }

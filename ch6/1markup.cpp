@@ -11,13 +11,18 @@ float calcRetail(float cost, float markup) {
 int main() {
     float cost;
     float markup;
+    float msrp;
 
     cout << "enter an item price: ";
     cin >> cost;
-    cout << "enter item markup: ";
+    cout << "enter item markup percentage: ";
     cin >> markup;
-    float msrp = calcRetail(cost, markup);
+
+    if (cost < 0 || markup < 0) {
+        cout << "negative nums, you done goofed" << endl;
+    } else {
+        msrp = calcRetail(cost, markup);
+    }
 
     cout << msrp << endl;
-
 }
