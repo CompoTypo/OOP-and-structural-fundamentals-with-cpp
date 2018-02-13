@@ -6,6 +6,7 @@
         "cstdlib": "cpp",
         "chrono": "cpp",
         "limits": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "array": "cpp"
     }
 }
