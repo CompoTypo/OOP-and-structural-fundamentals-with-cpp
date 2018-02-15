@@ -34,7 +34,6 @@ int main () {
     myfile.open ("words.txt");
     for(word; getline(myfile, word); ) {
         string pigWord = pigify(word);
-
     }
     cout << word << endl;
     myfile.close();
